@@ -25,6 +25,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
-    "websocket": "^1.0.34"
+    "websocket": "^1.0.34",
+    "zingchart": "^2.9.9"
   }
 }
