@@ -1,6 +1,7 @@
 const W3CWebSocket = require('websocket').w3cwebsocket;
 const client = new W3CWebSocket('ws://localhost:1880/ws/plc', 'echo-protocol');
 require('zingchart');
+require('./index.css');
 
 const gauge_01 = document.getElementById('gauge_01');
 client.onerror = function () {
